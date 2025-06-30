@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Galería Multimedia</title>
+  <link rel="stylesheet" href="layout.css" />
+</head>
+<body>
+  <h2>Explora Imágenes</h2>
+
+  <section class="formulario">
+    <input type="url" id="enlaceImagen" placeholder="Introduce la ruta de una imagen local" />
+    <button id="btnInsertar">Insertar</button>
+    <button id="btnQuitar">Quitar Seleccionada</button>
+  </section>
+
+  <!-- ✅ Instrucción para probar con una imagen local -->
+  <div style="font-size: 14px; color: gray; margin-top: 10px;">
+    <p>
+      Puedes cargar imágenes esta imagen.<br>
+      <em>resources/images/foto1.jpg</em>
+    </p>
+  </div>
+
+  <section id="contenedor" class="galeria"></section>
+
+  <script src="app.js"></script>
+</body>
+</html>
